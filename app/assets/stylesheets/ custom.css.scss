@@ -1,3 +1,102 @@
+
+
 @import "bootstrap-sprockets";
 
 @import "bootstrap";
+
+.navbar-default {
+    background-color: #7587a3;
+
+}
+
+#logo{
+
+  color: #fff;
+  float: left;
+  letter-spacing: 0.3rem;
+  font-size: 1.75em;
+}
+
+.center {
+
+text-align: center;
+
+}
+
+.jumbotron {
+
+background-image: asset-url('batman-logo.jpg');
+
+background-size: cover;
+
+background-position: center center;
+
+height: 400px;
+
+text-shadow: black 0.3em 0.3em 0.3em;
+
+}
+
+.jumbotron h1 {
+
+color: #fff;
+
+text-align: center;
+
+margin-bottom: 30px;
+
+letter-spacing: -1px;
+
+font-weight: bold;
+
+}
+
+.btn-xlarge {
+
+font-size: 1.7em;
+
+background-color: black;
+margin: 0 auto;
+text-align: center;
+
+}
+
+footer {
+
+margin-top: 45px;
+
+padding-top: 5px;
+
+border-top: 1px solid #eaeaea;
+
+color: #777;
+
+}
+
+footer a:hover {
+
+color: #222;
+
+}
+
+footer small {
+
+float: left;
+
+}
+
+footer ul {
+
+float: right;
+
+list-style: none;
+
+}
+
+footer ul li {
+
+float: left;
+
+margin-left: 15px;
+
+}
